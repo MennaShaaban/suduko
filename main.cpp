@@ -12,20 +12,20 @@
 
     //options (i will remove it to the next page)
 		
-		mainMenu[0].setFont(font);
-		mainMenu[0].setColor(sf::Color::White);
-		mainMenu[0].setString("Options");
-		mainMenu[0].setCharacterSize(50);
-		mainMenu[0].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu + 1)));
+		mainMenu[1].setFont(font);
+		mainMenu[1].setColor(sf::Color::White);
+		mainMenu[1].setString("Options");
+		mainMenu[1].setCharacterSize(50);
+		mainMenu[1].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu + 1)));
 
 
     //exit
 			
-		mainMenu[0].setFont(font);
-		mainMenu[0].setColor(sf::Color::White);
-		mainMenu[0].setString("Exit");
-		mainMenu[0].setCharacterSize(50);
-		mainMenu[0].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu + 1)));
+		mainMenu[2].setFont(font);
+		mainMenu[2].setColor(sf::Color::White);
+		mainMenu[2].setString("Exit");
+		mainMenu[2].setCharacterSize(50);
+		mainMenu[2].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu + 1)));
 
 		mainMenuSelected = 0;
 	} 
