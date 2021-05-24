@@ -2,9 +2,9 @@
 #include<SFML\Graphics.hpp>
 using namespace sf;
 #define Max_main_menu 3
-class menu {
+class menu1 {
 public:
-	menu(float width, float hight);
+	menu1(float width, float hight);
 	void draw(sf::RenderWindow &window);
 	void moveDown();
 	void moveUp();
@@ -16,7 +16,7 @@ public:
 	int mainMenuSelected;
 	sf::Font font;
 	sf::Text mainMenu[Max_main_menu];
-	~menu();
+	~menu1();
 private:
 	int mainMenuSelected;
 	sf::Font font;
