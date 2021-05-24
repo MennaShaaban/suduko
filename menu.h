@@ -15,11 +15,11 @@ public:
 	}
 	int mainMenuSelected;
 	sf::Font font;
-	sf::Text mainMenu[Max_main_menu];
+	sf::Text mainMenu[Max_main_menu1];
 	~menu1();
 private:
 	int mainMenuSelected;
 	sf::Font font;
-	sf::Text mainMenu[Max_main_menu];
+	sf::Text mainMenu[Max_main_menu1];
 
 };
