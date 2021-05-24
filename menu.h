@@ -1,7 +1,7 @@
 #pragma once
 #include<SFML\Graphics.hpp>
 using namespace sf;
-#define Max_main_menu 3
+#define Max_main_menu1 3
 class menu1 {
 public:
 	menu1(float width, float hight);
