@@ -1,13 +1,13 @@
-#include "menu.h"
+#include "menu1.h"
 
-  menu::menu(float width,float hight) {
+  menu1::menu1(float width,float hight) {
 	//play
 	if (!font.loadFromFile("OpenSans-Bold.ttf")) {
 		mainMenu[0].setFont(font);
 		mainMenu[0].setColor(sf::Color::Green);
 		mainMenu[0].setString("Play");
 		mainMenu[0].setCharacterSize(50);
-		mainMenu[0].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu + 1)));
+		mainMenu[0].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu1 + 1)));
 	
 
     //options (i will remove it to the next page)
@@ -16,7 +16,7 @@
 		mainMenu[1].setColor(sf::Color::White);
 		mainMenu[1].setString("Options");
 		mainMenu[1].setCharacterSize(50);
-		mainMenu[1].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu + 1)));
+		mainMenu[1].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu1 + 1)));
 
 
     //exit
@@ -25,7 +25,7 @@
 		mainMenu[2].setColor(sf::Color::White);
 		mainMenu[2].setString("Exit");
 		mainMenu[2].setCharacterSize(50);
-		mainMenu[2].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu + 1)));
+		mainMenu[2].setPosition(sf::Vector2f(width / 2 - 50, hight / (Max_main_menu1 + 1)));
 
 		mainMenuSelected = 0;
 	} 
