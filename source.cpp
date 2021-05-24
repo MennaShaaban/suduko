@@ -7,7 +7,7 @@ using namespace sf;
 int main() {
 	RenderWindow window(sf::VideoMode(600, 600), "suduko");
 
-	menu Menu(600, 600);
+	menu1 Menu(600, 600);
 	while (window.isOpen())
 	{
 		sf::Event event;
