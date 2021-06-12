@@ -1,0 +1,74 @@
+﻿  Source.cpp
+C:\Users\MENNA\source\repos\Project6\Project6\Source.cpp(145,27): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\MENNA\source\repos\Project6\Project6\Source.cpp(166,81): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\MENNA\source\repos\Project6\Project6\Source.cpp(166,55): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\MENNA\source\repos\Project6\Project6\Source.cpp(179,122): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\MENNA\source\repos\Project6\Project6\Source.cpp(179,89): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\MENNA\source\repos\Project6\Project6\Source.cpp(365,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  menu1.cpp
+C:\Users\MENNA\source\repos\Project6\Project6\menu1.cpp(14,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\MENNA\source\repos\Project6\Project6\menu1.cpp(14,45): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\MENNA\source\repos\Project6\Project6\menu1.cpp(22,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\MENNA\source\repos\Project6\Project6\menu1.cpp(22,45): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\MENNA\source\repos\Project6\Project6\menu1.cpp(30,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\MENNA\source\repos\Project6\Project6\menu1.cpp(30,45): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
+C:\Users\MENNA\source\repos\Project6\Project6\Source.cpp(445): warning C4715: 'numpad': not all control paths return a value
+C:\Users\MENNA\source\repos\Project6\Project6\Source.cpp(499): warning C4715: 'check': not all control paths return a value
+  Project6.vcxproj -> C:\Users\MENNA\source\repos\Project6\Debug\Project6.exe
